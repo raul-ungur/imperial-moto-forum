@@ -124,7 +124,19 @@ input {
   color: rgb(255, 255, 255);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1050px) {
   .post {
+    padding: 20px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .login {
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+  .Singup {
+    margin-right: 50px;
+    margin-left: 50px;
   }
 }
+
