@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/imperial-moto-forum/static/css/main.66fcbf76.css",
+    "main.css": "/imperial-moto-forum/static/css/main.c7430b0a.css",
     "main.js": "/imperial-moto-forum/static/js/main.6e4f8b58.js",
     "index.html": "/imperial-moto-forum/index.html",
-    "main.66fcbf76.css.map": "/imperial-moto-forum/static/css/main.66fcbf76.css.map",
+    "main.c7430b0a.css.map": "/imperial-moto-forum/static/css/main.c7430b0a.css.map",
     "main.6e4f8b58.js.map": "/imperial-moto-forum/static/js/main.6e4f8b58.js.map"
   },
   "entrypoints": [
-    "static/css/main.66fcbf76.css",
+    "static/css/main.c7430b0a.css",
     "static/js/main.6e4f8b58.js"
   ]
 }
