@@ -123,3 +123,8 @@ input {
   background-color: rgb(2, 26, 84);
   color: rgb(255, 255, 255);
 }
+
+@media (max-width: 768px) {
+  .post {
+  }
+}
