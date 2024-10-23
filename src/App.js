@@ -74,7 +74,7 @@ function App() {
               <Link to="/service">Log-in</Link>
             </li>
             <li>
-              <Link to="/singup">Sing-up</Link>
+              <Link to="/singup">Sign-up</Link>
             </li>
           </ul>
         </nav>
