@@ -11,7 +11,7 @@ function Service() {
     <>
       <div>
         <div className="Singup">
-          <h2>Sing Up</h2>
+          <h2>Sign Up</h2>
           <input className="username" placeholder="username" />
           <br />
           <input className="email" placeholder="Email" />
@@ -19,7 +19,7 @@ function Service() {
           <input className="password" placeholder="Password" />
           <br />
           <button onClick={goToHome} className="button">
-            Singin
+            Sign up
           </button>
         </div>
       </div>
