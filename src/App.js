@@ -2,7 +2,8 @@ import React from "react";
 import { useState } from "react";
 import "./App.css";
 import { Link, Route, Routes } from "react-router-dom";
-import About from "./About";
+
+import About from "./About"; 
 import Service from "./Service";
 import Singup from "./Singup";
 
