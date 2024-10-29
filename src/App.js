@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import "./App.css";
 import { Link, Route, Routes } from "react-router-dom";
+
 import About from "./About"; 
 import Service from "./Service";
 import Singup from "./Singup";
@@ -18,6 +19,7 @@ function Home() {
       setNewTask("");
     }
   };
+
   const deleteTask = (index) => {
     const updatedTasks = tasks.filter((_, i) => i !== index);
     setTasks(updatedTasks);
