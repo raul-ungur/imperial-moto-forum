@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import "./App.css";
 import { Link, Route, Routes } from "react-router-dom";
-import About from "./About"; // Importăm componenta About
+import About from "./About";
 import Service from "./Service";
 import Singup from "./Singup";
 
@@ -18,16 +18,6 @@ function Home() {
       setNewTask("");
     }
   };
-
-  /*const toggleTaskCompletion = (index) => {
-    const updatedTasks = tasks.map((task, i) => {
-      if (i === index) {
-        return { ...task, completed: !task.completed };
-      }
-      return task;
-    });
-    setTasks(updatedTasks);
-  };*/
 
   const deleteTask = (index) => {
     const updatedTasks = tasks.filter((_, i) => i !== index);
@@ -85,7 +75,7 @@ function App() {
               <Link to="/service">Log-in</Link>
             </li>
             <li>
-              <Link to="/singup">Sing-up</Link>
+              <Link to="/singup">Sign-up</Link>
             </li>
           </ul>
         </nav>
