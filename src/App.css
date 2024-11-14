@@ -40,7 +40,7 @@ section {
 h1,
 h2,
 p {
-  color: #f7fdff;
+  color: #ffffff;
 }
 
 footer {
@@ -92,7 +92,7 @@ button {
   border: none;
   border-radius: 15%;
   cursor: pointer;
-  color: #f7fdff;
+  color: #eff3f5;
   font-size: 20px;
   padding: 10px;
 
@@ -103,7 +103,7 @@ button {
 
 li p {
   background-color: rgba(240, 248, 255, 0.311);
-  color: #f7fdff;
+  color: #428399;
   padding: 5px;
 
   margin-right: 10px;
@@ -122,4 +122,20 @@ input {
   border-radius: 20%;
   background-color: rgb(2, 26, 84);
   color: rgb(255, 255, 255);
+}
+
+@media (max-width: 1050px) {
+  .post {
+    padding: 20px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .login {
+    margin-right: 40px;
+    margin-left: 50px;
+  }
+  .Singup {
+    margin-right: 40px;
+    margin-left: 50px;
+  }
 }
