@@ -19,7 +19,7 @@ function Service() {
           <input className="password" placeholder="Password" />
           <br />
           <button onClick={goToHome} className="button">
-            Sign-up
+            Sign up
           </button>
         </div>
       </div>
